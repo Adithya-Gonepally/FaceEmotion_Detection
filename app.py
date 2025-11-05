@@ -1,8 +1,9 @@
 import streamlit as st
 from PIL import Image
+import os
+os.system('apt-get update -y && apt get install -y libgl1')
 from ultralytics import YOLO
 import tempfile
-import os
 import cv2
 import base64
 
